@@ -1,0 +1,27 @@
+Before
+plan your project 
+
+During
+create app
+set env(mail,database etc,.)
+make migration one at a time(get also the relation/s table you need)
+
+first make everything for open files(one at a time)
+create model
+create route(picture and write all possible route)
+create view(its nice to have a UI before functions)
+create controller(know the process and start building, again one at a time)
+
+
+now make everything for user(one at a time)
+start with authentication with the following order(Register,Login,Forgotten->Reset,verification)
+you may specify a guard at this stage
+
+create model
+create route
+create view
+create controller
+
+repeat till you finish
+ 
+then admin

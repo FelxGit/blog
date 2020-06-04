@@ -1,0 +1,42 @@
+Blog bugs
+1) ajax load multiple elements
+2) how ajax fail function works
+3) 
+
+css
+1) what is the proper way to modify bootstrap css
+
+2) functions does not work in modal footer(ex. pseudo classes, js)
+
+3) how to focus form if input invalid in ajax
+
+ajax
+1) since validation is not completely useless with ajax, how do you return a response with error bag
+   solution: if the incoming request was an ajax request, no redirect will be generated(thats a deal). 
+             Instead, an HTTP response with a 422 code will be return in the browser containing a JSON representation of the vaidation error.
+
+2) how to return a custom message from fail ajax responses
+   solution: there should be a way 
+
+3) why is my jquery ajax load multiple
+   solution: the problem may exist due to unconnected tags
+
+Laravel
+1) Is there a way to access model in blade other than controller returned
+   Solution: you may use DB class/facade
+
+2) @blade control structures assigment inside parameter modify retunred data?
+   Answer: Yes
+
+3) @blade control structures parameter variables can be access within function? 
+   Answer: Yes
+
+Info
+1) Do you know that find() used first() behind the scene?
+2) The first() also used get() behind the scene but with a limit of 1. Equivalent to (ex. get()->first() )
+3) Other than getRouteKeyName() in Route Model Binding, you could also change the primary keys in find() which default is id. That means you could
+   {
+    public $primaryKey = 'slug';
+    ModelName::find($slug);
+   }
+

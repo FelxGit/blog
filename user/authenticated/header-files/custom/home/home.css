@@ -1,0 +1,11 @@
+.post-title {
+	font-size: calc(24px + 0.5vw)!important;
+}
+
+.post-subtitle {
+    font-size: calc(16px + 0.5vw)!important;
+}
+
+.post-meta {
+    font-size: calc(8px + 0.5vw)!important;	
+}

@@ -1,0 +1,9 @@
+nav .navbar-brand {
+  font-size: calc(12px + 0.5vw)!important;
+}
+nav .nav-link{
+  font-size: calc(5px + 0.5vw)!important;
+}
+footer .copyright {
+  font-size: calc(12px + 0.5vw)!important;
+}

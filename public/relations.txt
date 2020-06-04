@@ -1,0 +1,31 @@
+Before making project you should identify the relationships of your tables
+
+
+User->Posts = one to many
+User->comments = one to many
+User->profile = one to one
+User->Files
+                              
+Admin->Posts = one to many
+Admin->Comments = one to many
+Admin->Profile = one to one
+Admin->Files = one to many
+
+Role->Admins = many to many
+Role->Users = many to many
+
+Admin->Roles 
+Users->Roles 
+
+Profile->User = one to one
+Profile->Admin = one to one
+Profile->Files = one to many
+
+Post->comments = one to many
+Post->Files = one to many
+
+Comment->User = one to many  
+Comment->Admin = one to many
+Comment->Files = one to many
+Comment->likes = one to many
+

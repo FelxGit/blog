@@ -1,0 +1,42 @@
+[19-Jul-2019 10:56:59 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(C:\xampp\htdocs\blog\storage\framework\views/eb1fbcf7403138ae82bcbe40c01d229679e2e2af.php): failed to open stream: No such file or directory in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/felport2/...', 122, Array)
+#1 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('C:\\xampp\\htdocs...', '<?php $__env->s...', 0)
+#2 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(124): Illuminate\Filesystem\Filesystem->put('C:\\xampp\\htdocs...', '<?php $__env->s...')
+#3 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/felport2/...')
+#4 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Vi in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[19-Jul-2019 10:57:03 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(C:\xampp\htdocs\blog\storage\framework\views/eb1fbcf7403138ae82bcbe40c01d229679e2e2af.php): failed to open stream: No such file or directory in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/felport2/...', 122, Array)
+#1 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('C:\\xampp\\htdocs...', '<?php $__env->s...', 0)
+#2 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(124): Illuminate\Filesystem\Filesystem->put('C:\\xampp\\htdocs...', '<?php $__env->s...')
+#3 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/felport2/...')
+#4 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Vi in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[19-Jul-2019 10:57:05 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(C:\xampp\htdocs\blog\storage\framework\views/eb1fbcf7403138ae82bcbe40c01d229679e2e2af.php): failed to open stream: No such file or directory in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/felport2/...', 122, Array)
+#1 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('C:\\xampp\\htdocs...', '<?php $__env->s...', 0)
+#2 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(124): Illuminate\Filesystem\Filesystem->put('C:\\xampp\\htdocs...', '<?php $__env->s...')
+#3 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/felport2/...')
+#4 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Vi in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[19-Jul-2019 10:57:14 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(C:\xampp\htdocs\blog\storage\framework\views/eb1fbcf7403138ae82bcbe40c01d229679e2e2af.php): failed to open stream: No such file or directory in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/felport2/...', 122, Array)
+#1 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('C:\\xampp\\htdocs...', '<?php $__env->s...', 0)
+#2 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(124): Illuminate\Filesystem\Filesystem->put('C:\\xampp\\htdocs...', '<?php $__env->s...')
+#3 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/felport2/...')
+#4 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Vi in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[19-Jul-2019 18:53:41 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(C:\xampp\htdocs\blog\storage\framework\views/eb1fbcf7403138ae82bcbe40c01d229679e2e2af.php): failed to open stream: No such file or directory in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/felport2/...', 122, Array)
+#1 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('C:\\xampp\\htdocs...', '<?php $__env->s...', 0)
+#2 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(124): Illuminate\Filesystem\Filesystem->put('C:\\xampp\\htdocs...', '<?php $__env->s...')
+#3 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/felport2/...')
+#4 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Vi in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[19-Jul-2019 18:53:43 UTC] PHP Fatal error:  Uncaught ErrorException: file_put_contents(C:\xampp\htdocs\blog\storage\framework\views/eb1fbcf7403138ae82bcbe40c01d229679e2e2af.php): failed to open stream: No such file or directory in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/felport2/...', 122, Array)
+#1 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('C:\\xampp\\htdocs...', '<?php $__env->s...', 0)
+#2 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(124): Illuminate\Filesystem\Filesystem->put('C:\\xampp\\htdocs...', '<?php $__env->s...')
+#3 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/felport2/...')
+#4 /home/felport2/blog/vendor/laravel/framework/src/Illuminate/View/Vi in /home/felport2/blog/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122

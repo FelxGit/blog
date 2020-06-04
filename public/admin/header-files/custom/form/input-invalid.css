@@ -1,0 +1,10 @@
+
+  .invalid-feedback {
+    
+    color:red;
+  }
+
+  .is-invalid {
+
+    box-shadow: 0px 0px 5px red;
+  }

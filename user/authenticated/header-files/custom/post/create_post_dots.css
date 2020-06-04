@@ -1,0 +1,13 @@
+.dots:after {
+  content: '\2807';
+  font-size: calc(12px + 0.5vw);
+ }
+
+.mydots {
+	padding-top: 0.3rem!important;
+}
+.mydots::after {
+	content: none;
+}	
+
+
